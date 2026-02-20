@@ -1,1 +1,1 @@
-{\n  "buildCommand": "npm run build",\n  "devCommand": "npm run dev",\n  "installCommand": "npm install",\n  "framework": "nextjs",\n  "regions": ["fra1"]\n}
+{}
