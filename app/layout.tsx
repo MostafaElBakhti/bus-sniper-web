@@ -1,19 +1,19 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import './globals.css'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Bus Sniper Bot',
-  description: 'Automated bus ticket booking for 1337 network',
-};
+  description: 'Automatic bus ticket booking',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  );
+  )
 }
